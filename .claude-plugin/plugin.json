@@ -1,0 +1,6 @@
+{
+  "name": "cine-craft",
+  "description": "Directs AI video generation like a human filmmaker — cinematography, motivated lighting, natural human behaviour, story-driven editing and continuity — instead of AI-looking output (waxy skin, robotic camera moves, oversaturated teal-orange, template transitions)",
+  "author": { "name": "webdevelopersrinu" },
+  "license": "MIT"
+}

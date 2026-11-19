@@ -1,0 +1,48 @@
+{
+  "output": "my_reel.mp4",
+  "assets": "video_assets",
+  "voice": "en-US-AndrewNeural",
+  "bgm": true,
+  "scenes": [
+    {
+      "id": "intro",
+      "label": "VALKEY",
+      "layout": "title",
+      "title": "Valkey",
+      "headline": "NOT just a cache.",
+      "lines": ["8 real-world uses", "all in memory, all insanely fast"],
+      "narration": "This is Valkey. Most people know it as a cache, but caching is just a small part of the story."
+    },
+    {
+      "id": "cache",
+      "label": "CACHING",
+      "layout": "photo",
+      "headline": "Caching",
+      "photo": "img_cache.jpg",
+      "code": "SET products EX 60",
+      "pop": "0.2 ms",
+      "narration": "Instead of hitting the database every single time, Valkey keeps the result in memory and serves it back in microseconds."
+    },
+    {
+      "id": "types",
+      "label": "DATA TYPES",
+      "layout": "rows",
+      "headline": "The data structures",
+      "rows": [
+        ["Strings", "text & numbers — tokens, counters", "cyan"],
+        ["Hashes", "objects — a user profile in one key", "pink"],
+        ["Lists", "ordered — the classic job queue", "green"]
+      ],
+      "narration": "Strings store text and numbers. Hashes hold objects, like a user profile. And lists keep things in order — that's your job queue."
+    },
+    {
+      "id": "outro",
+      "label": "THAT'S VALKEY",
+      "layout": "outro",
+      "title": "Valkey",
+      "words": ["cache", "broker", "locks", "real-time"],
+      "cta": "comment below · hit like · follow",
+      "narration": "So that's Valkey. What would you build with it? Tell me in the comments, and hit like if this helped."
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "title": "Morning at Marigold Coffee",
+  "type": "commercial",
+  "character": "Woman in her 30s, shoulder-length black hair tied loosely, warm brown eyes, mustard-yellow apron over white linen shirt, small silver ring on right hand.",
+  "environment": "Small neighbourhood coffee shop, early morning. Large window camera-left with soft daylight, worn wooden counter, brass espresso machine, chalkboard menu behind counter, two potted plants on the sill.",
+  "shots": [
+    {
+      "beat": "establishing",
+      "size": "wide",
+      "camera": "static locked-off tripod",
+      "lighting": "soft morning window light from camera-left, warm practical pendant lamps over the counter",
+      "composition": "rule of thirds, counter on lower third, window left, depth to the back wall",
+      "action": "The empty shop at dawn; steam rises from the espresso machine as lights flicker on.",
+      "duration": 4
+    },
+    {
+      "beat": "character introduction",
+      "size": "medium",
+      "camera": "slow dolly in",
+      "reason": "draw the viewer toward her as the shop comes alive",
+      "lens": "35mm, natural perspective",
+      "lighting": "window light camera-left as key, lamp fill from above the counter",
+      "composition": "left third, look room toward the machine on the right",
+      "action": "She ties her apron, glances at the first order ticket, small focused exhale.",
+      "duration": 3,
+      "transition": "cut on action"
+    },
+    {
+      "beat": "action",
+      "size": "extreme close-up",
+      "camera": "static",
+      "lens": "85mm macro, shallow depth of field",
+      "lighting": "backlit by the window, steam catching the light",
+      "action": "Espresso streams into a ceramic cup; crema swirls; her ringed hand steadies the cup.",
+      "duration": 2,
+      "transition": "cut on action"
+    },
+    {
+      "beat": "emotional moment",
+      "size": "close-up",
+      "camera": "subtle handheld",
+      "reason": "documentary intimacy for the human beat",
+      "lighting": "window key light camera-left, soft bounce fill from the counter",
+      "composition": "eyes on upper third intersection",
+      "action": "She hands the cup to the first customer, a tired nurse; their eyes meet, a small real smile forms and fades.",
+      "duration": 5,
+      "transition": "L-cut, shop ambience carries over"
+    },
+    {
+      "beat": "resolution",
+      "size": "wide",
+      "camera": "slow crane up",
+      "reason": "closing ascent as the shop fills with morning life",
+      "lighting": "full morning sun through the window, warm interior lamps",
+      "composition": "frame within a frame through the front window from outside",
+      "action": "The shop seen from the street, customers at the counter, chalkboard reads the shop name.",
+      "duration": 4,
+      "transition": "cross dissolve"
+    }
+  ]
+}

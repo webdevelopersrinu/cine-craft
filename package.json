@@ -1,0 +1,8 @@
+{
+  "name": "cine-craft",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test test/direct.test.mjs"
+  }
+}
